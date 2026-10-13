@@ -3,4 +3,4 @@ FROM n8nio/n8n:latest
 USER root
 
 # pdf-lib: juntar nota + boleto em um PDF (workflow Notas E-mail -> OneDrive)
-RUN cd /usr/local/lib/node_modules/n8n && npm install pdf-lib
+RUN npm install -g pdf-lib
